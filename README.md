@@ -14,8 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## Process to install the app in local machine
 
 - Clone the file
-- Now run #### `npm install` #### , it well install all the dependencies
-- Now run #### `npm start` #### to start the server and open #### localhost:3000 ####
+- Now run `npm install` , it well install all the dependencies
+- Now run `npm start` , to start the server and open #### localhost:3000 ####
 
 ## Usted Tech Stack
 
