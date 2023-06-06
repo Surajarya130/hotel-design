@@ -1,0 +1,92 @@
+.feedbackSection{
+    display: flex;   
+    margin: 40px 0;
+    justify-content: space-between;
+}
+
+.reviewsSection{
+    width: 30%;
+}
+
+.reviewRangeBar{
+    height: 6px;
+    background-color: #d1bcbc;
+    width: 80%;
+}
+.reviewPoint{
+    background-color: #0e6efc;
+    height: 6px;
+}
+
+.revNamePoints{
+    display: flex;
+    width: 80%;
+    margin:15px 0 2px;
+    font-weight: 500;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.revNamePoints span:nth-child(2){
+    color: #877272;
+}
+
+.customerFeedback{
+    margin-top: 40px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(225, 198, 198);
+}
+
+.feedBackText{
+    width: 70%;
+}
+
+.feedbackDatingInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewsSection p{
+    font-size: 16px;
+}
+
+.feedBackText p{
+    margin-bottom: 0;
+}
+
+.username{
+    font-size: 14px;
+    color: #577ab1;
+}
+
+
+@media screen and (max-width:470px) {
+    .feedbackSection{
+        flex-direction: column;
+        width:100%
+    }
+    .reviewsSection{
+        width: 100%;
+    }
+    .customerFeedback{
+        flex-direction: column;
+        width: 100%;
+    }
+    .feedBackText{
+        width: 100%;
+    }
+    .feedbackDatingInfo{
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .feedbackDatingInfo{
+        flex-direction: row;
+    }
+    .rateNum h6{
+        margin-bottom: 0;
+    }
+    .ratingNum{
+        margin-left: 10px;
+    }
+}

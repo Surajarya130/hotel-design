@@ -1,0 +1,158 @@
+.navArr img{
+    width: 25px;
+    margin: 15px 0;
+}
+
+.heroImgSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroImg img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.heroImgSection > div{
+    width: 49.5%;
+}
+
+.restImgs{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+.restImgs > img{
+    max-width: 50%;
+    width: 49%;
+    border-radius: 15px;
+}
+
+.introSection{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introSection h2{
+    font-weight: 600;
+}
+
+.introSection p{
+    font-size: 18px;
+}
+
+.ratingInfo{
+    display: flex;
+}
+
+.ratingNum{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(154, 187, 107);
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratingType{
+    width: 200px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.ratingType h4{
+    font-size: 20px;
+    color: rgb(46, 120, 46);
+}
+.ratingType p{
+    font-size: 14px;
+}
+.ratingType h4, .ratingType p{
+    margin: 0;
+}
+
+
+.map-container {
+    height: 170px !important;
+    width: 400px !important;
+    margin-bottom: 20px;
+}
+
+.gMapBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featuresBlock{
+    display: flex;
+}
+.ovwBlock{
+    margin:10px 40px 0 0;
+}
+
+.ovwBlock p{
+    margin-bottom: 0.6rem;
+}
+
+
+@media screen and (max-width: 900px) {
+    .map-container {
+        height: 170px !important;
+        width: 300px !important;
+        margin-bottom: 20px;
+    }   
+    .heroImgSection{
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+   .heroImgSection .restImgs{
+        width: 100%;
+    }
+    .heroImgSection .heroImg{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .heroImgSection .heroImg{
+        width: 100%;
+    }
+    .heroImgSection .restImgs {
+        width: 100%;
+    }
+    .restImgs > img{
+        width: 48%;
+    }
+    .introSection{
+        flex-direction: column;
+    }
+    .ratingType{
+        width: 100%;
+    }
+    .gMapBlock{
+        flex-direction: column;
+    }
+    .map-container{
+        width: 360px !important;
+    }
+}
+
+
+/* Custom Material UI code starts here */
+.MuiTabs-root{
+    border-bottom: 1px solid #000 !important;
+    margin-bottom: 20px;
+}
+
+.MuiPaper-elevation1{
+    box-shadow: none !important;
+}
+/* Custome Material UI ends here  */
