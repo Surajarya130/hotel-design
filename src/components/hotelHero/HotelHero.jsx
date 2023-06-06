@@ -1,3 +1,5 @@
+// Here used material ui icons and google apis
+
 import React, { useState, useMemo } from "react";
 import leftArrIcon from "../../assets/images/leftArrIcon.svg";
 import heroImg from "../../assets/images/hotel1.jpg";

@@ -5,8 +5,6 @@ import Button from "react-bootstrap/Button";
 import "./roomCardStyle.css";
 
 function RoomCard() {
-  //   const Icon = Muicon["SatelliteAlt"];
-
   return (
     <div className="roomSection" id="Popular">
       <h3>Rooms</h3>

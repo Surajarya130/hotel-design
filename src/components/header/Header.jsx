@@ -37,6 +37,7 @@ function Header() {
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
 
+        {/* Hamburger navbar for  mobile screen size, basically toggling state and show side bar */}
         {toggle && (
           <motion.div
             whileInView={{ x: [300, 0] }}

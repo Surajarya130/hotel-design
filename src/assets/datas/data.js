@@ -1,3 +1,5 @@
+// Used seperate data, here in future we can do api calling and export data as per requirement. This keep code clean and scalable
+
 import Crop54Icon from "@mui/icons-material/Crop54";
 import PeopleIcon from "@mui/icons-material/People";
 import BedIcon from "@mui/icons-material/Bed";
